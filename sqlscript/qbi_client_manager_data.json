@@ -1,0 +1,17 @@
+{
+	"name": "qbi_client_manager_data",
+	"properties": {
+		"content": {
+			"query": "select top 5 * \nfrom QBiLiveClientManager",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "financeagent_db",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

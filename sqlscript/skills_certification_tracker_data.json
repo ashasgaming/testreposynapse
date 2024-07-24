@@ -1,0 +1,17 @@
+{
+	"name": "skills_certification_tracker_data",
+	"properties": {
+		"content": {
+			"query": "select * \nfrom AgentsSkillCertificationTrack",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "financeagent_db",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
